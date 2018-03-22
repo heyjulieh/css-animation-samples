@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Source+Sans+Pro:200,300,400,600,700,900');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  padding: 20px;
+}
+h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.milkygirl > img {
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    color: transparent;
+    opacity: 0;
+    z-index: 0;
+    -webkit-animation: imageAnimation 1s ease-out forwards 2;
+    -moz-animation:  imageAnimation 1s ease-out forwards 2;
+}
+
+.rabbitrun > img {
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    color: transparent;
+    opacity: 0;
+    z-index: 0;
+    -webkit-animation: rabbitAnimation .5s ease-out infinite forwards;
+    -moz-animation:  rabbitAnimation .5s ease-out infinite forwards;
+}
+.goo > img {
+    width: 500px;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    color: transparent;
+    opacity: 0;
+    z-index: 0;
+    -webkit-animation: gooAnimation 3s ease-in forwards;
+    -moz-animation:  gooAnimation 3s ease-in forwards;
+}
+
+.milkygirl > img:nth-child(2)  {
+     -webkit-animation-delay: .2s;
+     -moz-animation-delay: .2s;
+}
+
+.milkygirl > img:nth-child(3) {
+     -webkit-animation-delay: .31s;
+     -moz-animation-delay: .31s;
+}
+
+.milkygirl > img:nth-child(4) {
+     -webkit-animation-delay: .36s;
+     -moz-animation-delay: .36s;
+}
+
+.milkygirl > img:nth-child(5) {
+     -webkit-animation-delay: .40s;
+     -moz-animation-delay: .40s;
+}
+
+.milkygirl > img:nth-child(6) {
+     -webkit-animation-delay: .48s;
+     -moz-animation-delay: .48s;
+}
+
+.goo > img:nth-child(2)  {
+     -webkit-animation-delay: 1s;
+     -moz-animation-delay: 1s;
+}
+
+.goo > img:nth-child(3) {
+     -webkit-animation-delay: 2s;
+     -moz-animation-delay: 2s;
+}
+.goo > img:nth-child(4) {
+     -webkit-animation-delay: 3s;
+     -moz-animation-delay: 3s;
+}
+
+@-webkit-keyframes imageAnimation {
+  0% {
+   opacity:1;
+  }
+  40% {
+   opacity:1;
+  }
+  60% {
+   opacity:1;
+  }
+  80% {
+   opacity:1;
+  }
+  100% {
+   opacity:1;
+  }
+}
+
+@keyframes imageAnimation {
+  0% {
+   opacity:1;
+  }
+  40% {
+   opacity:1;
+  }
+  60% {
+   opacity:1;
+  }
+  80% {
+   opacity:0;
+  }
+  100% {
+   opacity:1;
+  }
+}
+
+
+@-webkit-keyframes rabbitAnimation {
+  0% {
+   opacity:1;
+  }
+  40% {
+   opacity:1;
+  }
+  60% {
+   opacity:1;
+  }
+  80% {
+   opacity:0;
+  }
+  100% {
+   opacity:1;
+  }
+}
+
+@keyframes rabbitAnimation {
+  0% {
+   opacity:1;
+  }
+  40% {
+   opacity:1;
+  }
+  60% {
+   opacity:1;
+  }
+  80% {
+   opacity:0;
+  }
+  100% {
+   opacity:1;
+  }
+}
